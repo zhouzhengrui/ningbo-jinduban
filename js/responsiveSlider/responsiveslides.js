@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-01-14 16:46:15
+ * @date    2018-01-16 22:31:44
  */
 /*! ResponsiveSlides.js v1.54
  * http://responsiveslides.com

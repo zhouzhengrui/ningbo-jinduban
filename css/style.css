@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-01-14 16:46:15
+ * @date    2018-01-16 22:31:44
  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -800,8 +800,10 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
 }
 
 .sideBox .box {
-  background: url("../img/sideBarContenBg.jpg") no-repeat bottom;
   overflow: hidden;
+  background: #f8f8f8;
+  border: 1px solid #d4d4d4;
+  padding-bottom: 5px;
 }
 
 .toolbarBox {
@@ -1783,6 +1785,62 @@ ul.footerNav a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.content-form {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+
+.content-form .formGroup {
+  width: 244px;
+  height: 26px;
+  margin-bottom: 0;
+  padding: 10px 0;
+  overflow: hidden;
+  float: left;
+}
+
+.content-form .formGroup .field {
+  width: 60px;
+}
+
+.content-form .formGroup .inputBox {
+  margin-left: 68px;
+}
+
+.content-form .formGroup .input {
+  width: 153px;
+}
+
+.content-form .formGroup select {
+  width: 165px;
+  min-width: 165px;
+}
+
+.content-form .btnGroup {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.table-full {
+  width: 100% !important;
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  border: 1px solid #dddddd;
+}
+
+.table-full td,
+.table-full th {
+  padding: 5px 10px;
+  border: 1px solid #dddddd;
+}
+
+.table-full th {
+  background: #f8f8f8;
+  font-weight: bold;
 }
 
 /*

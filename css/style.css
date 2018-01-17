@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-01-16 22:31:44
+ * @date    2018-01-17 18:51:38
  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -223,13 +223,13 @@ ul.menu li li li:hover ul {
 }
 
 ul.menu {
-  width: 1020px;
+  width: 1034px;
   margin: 0 auto;
 }
 
 ul.menu a {
   color: #fff;
-  width: 85px;
+  width: 94px;
   height: 40px;
   line-height: 40px;
   font-size: 16px;
@@ -254,7 +254,7 @@ ul.menu li li {
 }
 
 ul.menu li li a {
-  width: 55px;
+  width: 64px;
   font-size: 14px;
   height: auto;
   line-height: 24px;
@@ -273,7 +273,7 @@ ul.menu li li .sf-sub-indicator {
 }
 
 ul.menu ul {
-  width: 170px;
+  width: 188px;
   border: 1px solid #2270b3;
   border-bottom: 0;
 }
@@ -310,9 +310,9 @@ ul.menu a.sf-with-ul {
   position: absolute;
   display: block;
   left: 50%;
-  margin-left: 20px;
+  margin-left: -5px;
   top: 50%;
-  margin-top: -5px;
+  margin-top: 8px;
   width: 10px;
   height: 10px;
   text-indent: -999em;
@@ -412,7 +412,7 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
   width: 494px;
   height: 210px;
   float: left;
-  background: url("../img/indexTabGroupBg.jpg") no-repeat;
+  background: url("../img/index-tab-group-bg.jpg") no-repeat;
   margin-bottom: 12px;
   position: relative;
 }
@@ -496,6 +496,83 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
   right: 0;
 }
 
+.tab-group-notice {
+  position: relative;
+  width: 1000px;
+  height: 210px;
+  overflow: hidden;
+  background: url("../img/tab-group-notice-bg.jpg") no-repeat;
+}
+
+.tab-group-notice .important {
+  position: absolute;
+  left: 508px;
+  _left: 423px;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  text-align: center;
+  background: url("../img/tab-gray.jpg") no-repeat;
+}
+
+.tab-group-notice .important a {
+  display: block;
+  width: 60px;
+  color: #267cc7;
+}
+
+.tab-group-notice .important.ui-state-active .important-file {
+  color: #fff;
+  background: url("../img/tabBlue.png") no-repeat;
+}
+
+.ui-tabs-panel-1 {
+  width: 1000px !important;
+}
+
+.ui-tabs-panel-1 ul.newsList {
+  padding: 10px 0 0;
+}
+
+.ui-tabs-panel-1 ul.newsList li {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.ui-tabs-panel-1 ul.newsList li a {
+  width: 700px;
+}
+
+.ui-tabs-panel-1 ul.newsList li .link {
+  float: right;
+  width: auto;
+  background: none;
+  color: #267cc7;
+  margin: 0 0 0 30px;
+}
+
+.ui-tabs-panel-2 {
+  width: 1000px !important;
+  height: 180px;
+  overflow: hidden;
+}
+
+.ui-tabs-panel-2 ul.newsList {
+  padding: 10px 0 0;
+  width: 100%;
+  float: left;
+  height: 170px;
+  overflow: hidden;
+}
+
+.ui-tabs-panel-2 ul.newsList li {
+  float: left;
+  margin: 0 15px;
+  _margin: 0 0 0 15px;
+  width: 468px;
+}
+
 .headerBox {
   height: 210px;
   background: url("../img/header-bg.jpg") no-repeat center;
@@ -527,7 +604,7 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
 }
 
 .menuBox .container {
-  width: 1020px;
+  width: 1034px;
 }
 
 .menuBar {
@@ -1000,7 +1077,7 @@ dl.sideInfoBox dt {
   position: relative;
   height: 100px;
   margin-bottom: 12px;
-  background: url("../img/toolbarBg.jpg") no-repeat;
+  border: 1px solid #a8b3c6;
 }
 
 .imageScrollBox-X .box {
@@ -1180,12 +1257,20 @@ ul.pageList li {
 
 ul.pageList li a {
   display: block;
-  width: 600px;
+  width: 500px;
   padding-left: 8px;
   background: url("../img/listDot.jpg") no-repeat left center;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+ul.pageList li .link {
+  float: right;
+  width: auto;
+  background: none;
+  color: #267cc7;
+  margin: 0 0 0 30px;
 }
 
 ul.pageList li span {
@@ -1841,6 +1926,47 @@ ul.footerNav a {
 .table-full th {
   background: #f8f8f8;
   font-weight: bold;
+}
+
+.business-button-group {
+  margin-bottom: 12px;
+  padding: 12px 9px 0;
+  border: 1px solid #a8b3c6;
+}
+
+.business-button-group ul {
+  float: left;
+  width: 100%;
+}
+
+.business-button-group ul li {
+  float: left;
+  width: 134px;
+  height: 70px;
+  margin: 0 3px 12px;
+  *margin: 0 2px 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.business-button-group ul li a {
+  display: block;
+  width: 124px;
+  height: 59px;
+  padding: 11px 5px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: url("../img/toolbar-item.jpg") no-repeat;
+}
+
+.business-button-group ul li a:hover {
+  text-decoration: underline;
+}
+
+.business-button-group ul li .add-button {
+  background: url("../img/imageScrollBox-add.jpg") no-repeat;
 }
 
 /*

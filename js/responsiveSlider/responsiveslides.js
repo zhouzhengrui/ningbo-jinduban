@@ -1,9 +1,3 @@
-/**
- * ningbo-gov
- * @author  Rui
- * @version 0.1.0
- * @date    2018-01-17 18:51:38
- */
 /*! ResponsiveSlides.js v1.54
  * http://responsiveslides.com
  * http://viljamis.com

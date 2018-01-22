@@ -1,10 +1,4 @@
 /**
- * ningbo-gov
- * @author  Rui
- * @version 0.1.0
- * @date    2018-01-17 18:51:38
- */
-/**
 * DD_belatedPNG: Adds IE6 support: PNG images for CSS background-image and HTML <IMG/>.
 * Author: Drew Diller
 * Email: drew.diller@gmail.com

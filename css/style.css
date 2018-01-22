@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-01-17 18:51:38
+ * @date    2018-01-22 16:07:33
  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -599,6 +599,8 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
 }
 
 .menuBox {
+  position: relative;
+  z-index: 1000;
   height: 40px;
   background: url("../img/menu-bg.jpg") no-repeat;
 }
@@ -1896,11 +1898,11 @@ ul.footerNav a {
 }
 
 .content-form .formGroup .input {
-  width: 153px;
+  width: 143px;
 }
 
 .content-form .formGroup select {
-  width: 165px;
+  width: 155px;
   min-width: 165px;
 }
 
@@ -1908,6 +1910,54 @@ ul.footerNav a {
   width: 100%;
   margin-bottom: 10px;
   text-align: right;
+}
+
+.content-form-full {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.content-form-full .formGroup {
+  width: 33%;
+  height: 26px;
+  margin-bottom: 0;
+  padding: 10px 0;
+  overflow: hidden;
+  float: left;
+  border-bottom: 0;
+}
+
+.content-form-full .formGroup .field {
+  width: 60px;
+}
+
+.content-form-full .formGroup .inputBox {
+  margin-left: 68px;
+}
+
+.content-form-full .formGroup .input {
+  width: 230px;
+}
+
+.content-form-full .formGroup p.text {
+  margin-left: 68px;
+}
+
+.content-form-full .formGroup select {
+  width: 240px;
+  height: 26px;
+  min-width: 165px;
+}
+
+.content-form-full .btnGroup .inputBox {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.content-form-full .btnGroup .inputBox .btn {
+  height: 26px;
+  line-height: 26px;
 }
 
 .table-full {

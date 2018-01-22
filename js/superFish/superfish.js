@@ -1,9 +1,3 @@
-/**
- * ningbo-gov
- * @author  Rui
- * @version 0.1.0
- * @date    2018-01-17 18:51:38
- */
 
 /*
  * Superfish v1.4.8 - jQuery menu widget

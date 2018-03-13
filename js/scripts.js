@@ -17,13 +17,28 @@ jQuery(document).ready(function($) {
     $("ul.menu > li:first").css("background-image", "none");
 
     // slider
-    $("#slider").responsiveSlides({
+    $("#flash").responsiveSlides({
         manualControls: '#sliderPages',
         namespace: "slider",
         auto: true,
         speed: 800,
         timeout: 5000,
-        pager: true,
+        pager: false,
+        nav: false,
+        random: false,
+        pause: false,
+        pauseControls: false,
+        maxwidth: ""
+    });
+
+    // slider
+    $("#slider").responsiveSlides({
+        manualControls: '#sliderPages',
+        namespace: "slider",
+        auto: true,
+        speed: 1000,
+        timeout: 4000,
+        pager: false,
         nav: false,
         random: false,
         pause: false,

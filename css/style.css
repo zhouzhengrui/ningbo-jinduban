@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-01-22 16:07:33
+ * @date    2018-3-13 17:54:09
  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -596,6 +596,77 @@ ul.menu ul li:hover > a > .sf-sub-indicator {
 .headerBox img.img {
   right: -65px;
   bottom: 0;
+}
+
+.flashBox {
+  position: absolute;
+  left: 500px;
+  width: 306px;
+  height: 210px;
+}
+
+.flashBox .rslides {
+  position: relative;
+  overflow: hidden;
+  width: 306px;
+  height: 210px;
+}
+
+.flashBox .rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.flashBox .rslides .imgBox {
+  width: 306px;
+  height: 210px;
+}
+
+.flashBox .rslides .imgBox img {
+  max-width: 306px;
+  max-height: 210px;
+  vertical-align: middle;
+}
+
+.flashBox .slider_tabs {
+  position: absolute;
+  z-index: 3;
+  right: 14px;
+  bottom: 12px;
+  text-align: center;
+  font-size: 0;
+  height: 14px;
+}
+
+.flashBox .slider_tabs li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin: 0 2px;
+}
+
+.flashBox .slider_tabs li a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 14px;
+  height: 14px;
+  background: #fff;
+}
+
+.flashBox .slider_tabs li.slider_here a {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.flashBox .slider_tabs img {
+  width: 120px !important;
+  height: 56px !important;
 }
 
 .menuBox {
@@ -1245,6 +1316,34 @@ ul.newsList li span {
   width: 70px;
   color: #9a9a9a;
   text-align: right;
+}
+
+ul.videoList {
+  padding: 10px 15px 0;
+}
+
+ul.videoList li {
+  background: url("../img/newsListLine.jpg") repeat-x left bottom;
+}
+
+ul.videoList li a {
+  display: block;
+  padding-left: 8px;
+  background: url("../img/listDot.jpg") no-repeat left center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+ul.videoList li a b {
+  color: #267cc7;
+  margin-right: 5px;
+}
+
+ul.videoList li span {
+  display: block;
+  padding-left: 8px;
+  color: #9a9a9a;
 }
 
 ul.pageList {
@@ -1991,7 +2090,7 @@ ul.footerNav a {
 
 .business-button-group ul li {
   float: left;
-  width: 134px;
+  width: 239px;
   height: 70px;
   margin: 0 3px 12px;
   *margin: 0 2px 12px;
@@ -2001,7 +2100,7 @@ ul.footerNav a {
 
 .business-button-group ul li a {
   display: block;
-  width: 124px;
+  width: 229px;
   height: 59px;
   padding: 11px 5px 0;
   color: #fff;

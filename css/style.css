@@ -2,7 +2,7 @@
  * ningbo-gov
  * @author  Rui
  * @version 0.1.0
- * @date    2018-3-13 17:54:09
+ * @date    2018-3-27 16:35:08
  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1660,6 +1660,7 @@ ul.footerNav a {
 
 .signBox {
   padding: 10px 0;
+  margin-bottom: 20px;
   text-align: center;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
@@ -2116,6 +2117,18 @@ ul.footerNav a {
 
 .business-button-group ul li .add-button {
   background: url("../img/imageScrollBox-add.jpg") no-repeat;
+}
+
+.red-head {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f00;
+}
+
+.red-head .red-title {
+  color: #f00;
+  margin-bottom: 5px;
 }
 
 /*
